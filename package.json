@@ -31,6 +31,7 @@
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
     "@types/react": "^17.0.34",
+    "@types/styled-components": "^5.1.20",
     "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
@@ -51,5 +52,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "styled-components": "^5.3.3"
+  }
 }
