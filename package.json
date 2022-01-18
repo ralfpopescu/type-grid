@@ -1,9 +1,6 @@
 {
-  "name": "ralfpopescu",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/type-grid"
-  },
-  "version": "0.1.0",
+  "name": "type-grid",
+  "version": "0.1.1",
   "description": "A type-safe wrapper around CSS Grid focused on responsiveness",
   "scripts": {
     "rollup": "rollup -c",
@@ -50,7 +47,8 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
